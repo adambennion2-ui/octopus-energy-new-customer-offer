@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octopus Energy New Customer Offer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="19" stroke="#FF6B35" stroke-width="2"/>
+                    <path d="M20 10C20 10 16 14 16 20C16 24.4 18.9 28 20 28C21.1 28 24 24.4 24 20C24 14 20 10 20 10Z" fill="#FF6B35"/>
+                </svg>
+                <h1>Octopus Energy</h1>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>New Customer Offer</h2>
+                <p class="subtitle">Get £50 free bill credit when you switch to Octopus Energy</p>
+            </section>
+
+            <section class="offer-details">
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>£50 Bill Credit</h3>
+                    <p>Applied to your account when you join Octopus Energy</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Great Rates</h3>
+                    <p>Competitive energy rates to help you save on bills</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌍</div>
+                    <h3>Green Energy</h3>
+                    <p>100% renewable electricity from sustainable sources</p>
+                </div>
+            </section>
+
+            <section class="referral-code">
+                <h2>Your Referral Link</h2>
+                <p>Share this link with friends and family to claim your £50 credit</p>
+                
+                <div class="code-container">
+                    <input type="text" id="referralLink" value="https://share.octopus.energy/immense-eel-795" readonly>
+                    <button class="copy-btn" onclick="copyToClipboard()">
+                        <span id="btnText">Copy Link</span>
+                    </button>
+                </div>
+
+                <div class="short-code">
+                    <p>Or share the code:</p>
+                    <div class="code-display">
+                        <code>immense-eel-795</code>
+                        <button class="copy-btn-small" onclick="copyCode()">Copy Code</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how-it-works">
+                <h2>How It Works</h2>
+                <ol class="steps">
+                    <li>
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Share Your Link</h3>
+                            <p>Send your referral link to friends and family</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>They Switch</h3>
+                            <p>Your friends sign up to Octopus Energy using your link</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>You Both Win</h3>
+                            <p>You both receive £50 bill credit when they become active customers</p>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="terms">
+                <h3>Terms & Conditions</h3>
+                <ul>
+                    <li>New customers only - must not have been with Octopus Energy in the last 12 months</li>
+                    <li>£50 credit applied once the new customer becomes an active customer</li>
+                    <li>Credit is applied to your bill account within 30 days</li>
+                    <li>Limited to one referral bonus per new customer</li>
+                </ul>
+                <p class="disclaimer">For full terms, please visit the <a href="https://octopus.energy/" target="_blank">Octopus Energy website</a></p>
+            </section>
+
+            <section class="cta">
+                <a href="https://share.octopus.energy/immense-eel-795" target="_blank" class="cta-button">
+                    Join Octopus Energy Now →
+                </a>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Octopus Energy Referral. All rights reserved.</p>
+            <p><small>This is a referral page. For official information, visit <a href="https://octopus.energy/" target="_blank">octopus.energy</a></small></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
