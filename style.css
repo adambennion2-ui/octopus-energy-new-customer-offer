@@ -317,6 +317,23 @@ h3 {
     text-decoration: underline;
 }
 
+/* Note Section */
+.note {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 20px 40px;
+}
+
+.note-text {
+    color: #856404;
+    font-size: 14px;
+    margin: 0;
+}
+
+.note-text strong {
+    color: #333;
+}
+
 /* CTA Section */
 .cta {
     text-align: center;
